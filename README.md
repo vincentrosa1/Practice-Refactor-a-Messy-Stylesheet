@@ -21,3 +21,5 @@ Testing caught two regressions that were fixed, `body` lost its font settings wh
 No AI was used. 
 
 Commited files: 
+https://github.com/vincentrosa1/Practice-Refactor-a-Messy-Stylesheet 
+https://vincentrosa1.github.io/Practice-Refactor-a-Messy-Stylesheet/ 
