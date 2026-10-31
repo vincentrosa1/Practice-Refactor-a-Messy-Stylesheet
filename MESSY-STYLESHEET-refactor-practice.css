@@ -3,6 +3,31 @@
    tokens, components, utilities, states, and print support.
 */
 
+/* TOKENS */
+:root {
+  --color-brand: #8c1d40;
+  --color-on-brand: white;
+  --color-accent: #ffc627;
+  --color-ink: #191919;
+  --color-text: #222222;
+  --color-surface: white;
+  --color-surface-muted: #f7f7f7;
+  --color-border: #dddddd;
+  --color-highlight: #fff8df;
+
+  /* SHAPE */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* SPACING */
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 32px;
+
+
+}
+
 body {
   margin: 0;
   background: white;
