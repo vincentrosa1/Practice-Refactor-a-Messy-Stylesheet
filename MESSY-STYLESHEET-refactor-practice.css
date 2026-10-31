@@ -93,18 +93,13 @@ header {
   gap: 12px;
 }
 
-.site-header nav ul li a {
-  color: var(--color-on-brand);
+.site-header nav a{
   padding: 8px 12px;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
 }
 
-.site-header nav ul li a:hover {
-  background: var(--color-accent);
-  color: var(--color-ink);
-}
-
-.site-header nav ul li a[aria-current="page"] {
+.site-header nav a:hover,
+.siteheader nav a[aria-current="page"] {
   background: var(--color-accent);
   color: var(--color-ink);
 }
