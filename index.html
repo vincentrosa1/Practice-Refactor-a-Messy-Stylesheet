@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width,initial-scale=1">
+        <title>Refactor Test Page</title>
+        <link rel="stylesheet" href="MESSY-STYLESHEET-refactor-practice.css">
+    </head>
+
+    <body>
+        <header class="site-header">
+            <a href="#">Event Site</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" aria-current="page">Home</a>
+                    </li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Speakers</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>Design System</h1>
+                <p>Hero text paragraph</p>
+                <a class="button" href="#">.button</a>
+                <a class="btn" href="#">.btn</a>
+                <button>button</button>
+            </section>
+
+            <section class="section">
+                <h2>Events</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <h3>Card</h3>
+                        <p>Body text</p>
+                        <a href="#">Card link</a>
+                    </article>
+
+                    <article class="event-card">
+                        <h3>Event card</h3>
+                        <p>Body text.</p>
+                        <a href="#">Event link</a>
+                    </article>
+
+                    <article class="speaker-card">
+                        <h3>Speaker card</h3>
+                        <p>Body text.</p>
+                        <a href="#">Speaker link</a>
+                    </article>
+                </div>
+            </section>
+
+                <div class="callout">Callout</div>
+                <div class="note">Note</div>
+                <div class="warning">Warning</div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input id="name">
+                    <label for="track">Track</label>
+                    <select id="track">
+                        <option>Design</option>
+                    </select>
+                    <label for="msg">Message</label>
+                    <textarea id="msg"></textarea>
+                    <button>Send</button>
+                </form>
+
+                <section class="section">
+                    <h2>Resources</h2>
+                    <div class="resources">
+                        <div class="resource"><h3>Resource 1</h3></div>
+                        <div class="resource"><h3>Resource 2</h3></div>
+                    </div>
+                </section>
+                
+                <p class="text-center">.text-center</p>
+                <p class="center">.center</p>
+                <p class="hidden">You shouldn't be able to see this</p>
+        </main>
+        <footer>Footer <a href="#">link</a></footer>
+    </body>
+</html>
