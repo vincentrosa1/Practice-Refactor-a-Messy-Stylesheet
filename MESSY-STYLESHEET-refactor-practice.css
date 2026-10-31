@@ -179,25 +179,13 @@ button:hover {
   font-weight: bold;
 }
 
-.callout {
-  background: var(--color-highlight);
-  border-left: 6px solid var(--color-accent);
-  padding: 20px;
-  margin: 32px 0;
-}
-
-.note {
-  background: var(--color-highlight);
-  border-left: 6px solid var(--color-accent);
-  padding: 20px;
-  margin: 32px 0;
-}
-
+.callout,
+.note,
 .warning {
   background: var(--color-highlight);
   border-left: 6px solid var(--color-accent);
-  padding: 20px;
-  margin: 32px 0;
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0; 
 }
 
 
