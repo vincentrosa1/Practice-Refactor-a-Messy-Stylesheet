@@ -156,25 +156,13 @@ button:hover {
   margin: 32px 0;
 }
 
-.card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
-  padding: 20px;
-}
-
-.event-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
-  padding: 20px;
-}
-
+.card,
+.event-card,
 .speaker-card {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: 8px;
-  padding: 20px;
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
 }
 
 .card h3,
