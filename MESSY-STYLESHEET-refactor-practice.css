@@ -69,6 +69,8 @@ textarea:focus {
   outline: 3px solid var(--color-accent);
 }
 
+/* SITE HEADER */
+
 header {
   background: var(--color-brand);
   color: var(--color-on-brand);
@@ -104,6 +106,8 @@ header {
   color: var(--color-ink);
 }
 
+/* LAYOUT AND HERO */
+
 main {
   max-width: 1100px;
   margin: 0 auto;
@@ -128,6 +132,10 @@ main {
   font-size: 18px;
   color: var(--color-text);
 }
+
+/* COMPONENTS */
+/* Button components */
+
 
 .button, 
 .btn, 
@@ -188,6 +196,7 @@ button:hover {
   margin: var(--space-xl) 0; 
 }
 
+/* PAGE SECTIONS AND UTILITIES */
 
 .section {
   margin-bottom: 48px;
