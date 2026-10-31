@@ -129,32 +129,16 @@ main {
   color: var(--color-text);
 }
 
-.button {
-  display: inline-block;
-  background: var(--color-brand);
-  color: var(--color-on-brand);
-  padding: 12px 18px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.btn {
-  display: inline-block;
-  background: var(--color-brand);
-  color: var(--color-on-brand);
-  padding: 12px 18px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
+.button, 
+.btn, 
 button {
+  display: inline-block;
   background: var(--color-brand);
   color: var(--color-on-brand);
   padding: 12px 18px;
-  border-radius: 4px;
   border: 0;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
   font-weight: bold;
 }
 
