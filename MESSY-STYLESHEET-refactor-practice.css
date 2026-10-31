@@ -34,21 +34,24 @@ body {
 margin: 0;
 background: var(--color-surface);
 color: var(--color-text);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5;
 }
 
 header {
-  background: #8c1d40;
-  color: white;
+  background: var(--color-brand);
+  color: var(--color-on-brand);
   padding: 24px;
 }
 
 .site-header {
-  background: #8c1d40;
+  background: var(--color-brand);
   padding: 24px;
 }
 
 .site-header a {
-  color: white;
+  color: var(--color-on-brand);
   text-decoration: none;
 }
 
@@ -61,19 +64,19 @@ header {
 }
 
 .site-header nav ul li a {
-  color: white;
+  color: var(--color-on-brand);
   padding: 8px 12px;
   border-radius: 4px;
 }
 
 .site-header nav ul li a:hover {
-  background: #ffc627;
-  color: #191919;
+  background: var(--color-accent);
+  color: var(--color-ink);
 }
 
 .site-header nav ul li a[aria-current="page"] {
-  background: #ffc627;
-  color: #191919;
+  background: var(--color-accent);
+  color: var(--color-ink);
 }
 
 main {
@@ -83,14 +86,14 @@ main {
 }
 
 .hero {
-  background: #f7f7f7;
-  border: 1px solid #dddddd;
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border);
   padding: 32px;
   margin-bottom: 32px;
 }
 
 .hero h1 {
-  color: #8c1d40;
+  color: var(--color-brand);
   font-size: 42px;
   line-height: 1.1;
   margin: 0 0 16px;
@@ -98,13 +101,13 @@ main {
 
 .hero p {
   font-size: 18px;
-  color: #222222;
+  color: var(--color-text);
 }
 
 .button {
   display: inline-block;
-  background: #8c1d40;
-  color: white;
+  background: var(--color-brand);
+  color: var(--color-on-brand);
   padding: 12px 18px;
   border-radius: 4px;
   text-decoration: none;
@@ -113,8 +116,8 @@ main {
 
 .btn {
   display: inline-block;
-  background: #8c1d40;
-  color: white;
+  background: var(--color-brand);
+  color: var(--color-on-brand);
   padding: 12px 18px;
   border-radius: 4px;
   text-decoration: none;
@@ -122,8 +125,8 @@ main {
 }
 
 button {
-  background: #8c1d40;
-  color: white;
+  background: var(--color-brand);
+  color: var(--color-on-brand);
   padding: 12px 18px;
   border-radius: 4px;
   border: 0;
@@ -133,8 +136,8 @@ button {
 .button:hover,
 .btn:hover,
 button:hover {
-  background: #ffc627;
-  color: #191919;
+  background: var(--color-accent);
+  color: var(--color-ink);
 }
 
 .card-grid {
@@ -145,22 +148,22 @@ button:hover {
 }
 
 .card {
-  background: white;
-  border: 1px solid #dddddd;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 20px;
 }
 
 .event-card {
-  background: white;
-  border: 1px solid #dddddd;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 20px;
 }
 
 .speaker-card {
-  background: white;
-  border: 1px solid #dddddd;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 20px;
 }
@@ -168,55 +171,55 @@ button:hover {
 .card h3,
 .event-card h3,
 .speaker-card h3 {
-  color: #8c1d40;
+  color: var(--color-brand);
   margin-top: 0;
 }
 
 .card a,
 .event-card a,
 .speaker-card a {
-  color: #8c1d40;
+  color: var(--color-brand);
   font-weight: bold;
 }
 
 .callout {
-  background: #fff8df;
-  border-left: 6px solid #ffc627;
+  background: var(--color-highlight);
+  border-left: 6px solid var(--color-accent);
   padding: 20px;
   margin: 32px 0;
 }
 
 .note {
-  background: #fff8df;
-  border-left: 6px solid #ffc627;
+  background: var(--color-highlight);
+  border-left: 6px solid var(--color-accent);
   padding: 20px;
   margin: 32px 0;
 }
 
 .warning {
-  background: #fff8df;
-  border-left: 6px solid #ffc627;
+  background: var(--color-highlight);
+  border-left: 6px solid var(--color-accent);
   padding: 20px;
   margin: 32px 0;
 }
 
 form {
-  border: 1px solid #dddddd;
+  border: 1px solid var(--color-border);
   padding: 24px;
-  background: #f7f7f7;
+  background: var(--color-surface-muted);
 }
 
 label {
   display: block;
   margin-bottom: 6px;
   font-weight: bold;
-  color: #222222;
+  color: var(--color-text);
 }
 
 input {
   width: 100%;
   padding: 12px;
-  border: 1px solid #dddddd;
+  border: 1px solid var(--color-border);
   border-radius: 4px;
   margin-bottom: 16px;
   font-size: 16px;
@@ -225,7 +228,7 @@ input {
 select {
   width: 100%;
   padding: 12px;
-  border: 1px solid #dddddd;
+  border: 1px solid var(--color-border);
   border-radius: 4px;
   margin-bottom: 16px;
   font-size: 16px;
@@ -234,7 +237,7 @@ select {
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #dddddd;
+  border: 1px solid var(--color-border);
   border-radius: 4px;
   margin-bottom: 16px;
   font-size: 16px;
@@ -243,7 +246,7 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-  outline: 3px solid #ffc627;
+  outline: 3px solid var(--color-accent);
 }
 
 .section {
@@ -251,7 +254,7 @@ textarea:focus {
 }
 
 .section h2 {
-  color: #8c1d40;
+  color: var(--color-brand);
   font-size: 32px;
   margin-bottom: 12px;
 }
@@ -263,24 +266,24 @@ textarea:focus {
 }
 
 .resource {
-  border: 1px solid #dddddd;
+  border: 1px solid var(--color-border);
   padding: 20px;
   border-radius: 8px;
 }
 
 .resource h3 {
-  color: #8c1d40;
+  color: var(--color-brand);
 }
 
 footer {
-  background: #191919;
-  color: white;
+  background: var(--color-ink);
+  color: var(--color-on-brand);
   padding: 24px;
   margin-top: 48px;
 }
 
 footer a {
-  color: #ffc627;
+  color: var(--color-accent);
 }
 
 .text-center {
