@@ -101,7 +101,7 @@ header {
 }
 
 .site-header nav a:hover,
-.siteheader nav a[aria-current="page"] {
+.site-header nav a[aria-current="page"] {
   background: var(--color-accent);
   color: var(--color-ink);
 }
